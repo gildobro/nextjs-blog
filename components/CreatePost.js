@@ -31,6 +31,8 @@ const CreatePost = () => {
     }
     return (
         <div>
+                  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+                  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-firestore.js"></script>
             <h2>Add Blog</h2>
 
             {notification}
